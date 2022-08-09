@@ -1,6 +1,6 @@
 const BASE_URL = ''
 
-function config(token, refresh) {
+function config(token) {
     return {
         headers: {
             "Authorization": `Bearer ${token}`
